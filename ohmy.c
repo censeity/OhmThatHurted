@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
     int Voltage= 0, Current= 0, Resistance= 0, Result= 0, Choice= 0;
     int v= 0, i= 0, r= 0;
     printf("What variable do you have missing?\n");
-    printf(" 1. V Volts\n 2. I Current\n 3. Ω Resistance\n");
+    printf(" 1. V Volts\n 2. I Current\n 3. Resistance\n");
     scanf("%d", &Choice);
     if(Choice == 1){
     printf("What is the value of resistance: ");
